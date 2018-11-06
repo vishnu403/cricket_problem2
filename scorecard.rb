@@ -6,6 +6,8 @@ class Scorecard
   end
   def display_after_each_ball()
     puts "#{@ball_no} #{@ball_summary}"
+    "#{@ball_no} #{@ball_summary}"
+
   end
   def display_team_allout(team)
     puts "\n#{team} is all out!"
